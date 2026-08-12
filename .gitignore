@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.spec
+
+# 运行时生成（个人校准数据/参数，不入库）
+config.json
+github_token.txt
+登录日志.log
+*.png
+*.txt
+!_debug*.png
+
+# 系统
+.DS_Store
+Thumbs.db
